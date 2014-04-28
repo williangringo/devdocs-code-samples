@@ -16,7 +16,7 @@ A service:
  
 The following figure shows how this concept works:
 
-![The service interface accepts requests from web pages and web services, meaning they do not need to know the details of business logic](images/services-and-logic.png)
+![The service interface accepts requests from web pages and web services, meaning they do not need to know the details of business logic]({{ site.baseurl }}/images/services-and-logic.png)
 
 Services provide a consistent interface and behavior, regardless of the type of client making the request. This means that creating a customer works the same way, regardless of whether the customer is created from a web service or from a web page. It also means that customizations to the customer creation logic manifest themselves consistently from one page to the next and from one client to the next.
 
